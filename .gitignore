@@ -1,0 +1,22 @@
+# 忽略本地开发配置文件（含数据库密码等敏感信息）
+backend/sky-take-out/sky-server/src/main/resources/application-dev.yml
+
+# Maven 构建产物（backend/ 各模块下的 target/ 目录）
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 注：frontend/web-admin/.gitignore、frontend/mp-weixin/.gitignore
+# 各自已忽略 node_modules、dist 等前端构建产物，这里不重复列
+# 注：frontend/mp-weixin/node-modules/（连字符，非下划线）是小程序运行时依赖，
+# 不是构建产物，不要忽略，必须提交
