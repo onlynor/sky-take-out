@@ -26,6 +26,7 @@
     "nprogress": "^0.2.0",
     "path-to-regexp": "^3.0.0",
     "register-service-worker": "^1.6.2",
+    "tslib": "^2.9.1",
     "vue": "^2.6.10",
     "vue-area-linkage": "^5.1.0",
     "vue-class-component": "^7.1.0",
@@ -40,6 +41,7 @@
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "@types/js-cookie": "^2.2.2",
+    "@types/node": "^12.20.55",
     "@types/nprogress": "^0.2.0",
     "@types/webpack-env": "^1.14.0",
     "@vue/cli-plugin-babel": "^3.11.0",
